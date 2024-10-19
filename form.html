@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form </title>
+    <style>
+    body{background-color: rgb(90, 185, 216);}
+    legend {color:black;}
+    form {color: black;
+        font-family: Arial, Helvetica, sans-serif;}
+    select{
+        border-radius: 5px;width: 130px;}
+    textarea{
+        border-radius: 5px;}
+    button{
+        margin-left: 310px;width: 100px;height: 35px;color: white;background-color: black;border-radius: 10px; }
+    button:hover{
+        background-color: rgb(189, 92, 22);}
+    .father{
+        margin-left: 10px;height: 20px;border-radius: 5px;}
+    .cnic{
+        border-radius: 5px;height: 20px;margin-left: 14px;}
+    .age{
+        border-radius: 5px;height: 20px;margin-left: 30px;}
+    .name1{
+        border-radius: 5px;height: 20px; }
+     h3{
+        color: white;font-family: Arial, Helvetica, sans-serif; text-align: center; }
+    </style>
+</head>
+    <body>
+        <form>
+        <h1 style="text-align: center; text-decoration: underline; ">Admission Form</h1>
+        <fieldset>
+        <legend style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Instruction</legend>
+        <p> <li>Form to be filled in Capital & english letter only.</li></p>
+        <p> <li>Create an email account if you dont have one and then type your details....</li></p>
+        <p><li>You must give a mobile number in basic details.</li></p>
+        <p><li>If you don't have a mobile number plese enter you parent or gardian mobile number.</li></p>
+        </fieldset><br>
+        <fieldset>
+        <legend style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;">Basic Details</legend>
+        <p>First Name: <input type="text" class="First Name" placeholder="Enter Your name" required></p>
+        <p>Last Name: <input type="text" class="Last Name" placeholder="Enter Your Name" required></p>
+        <p>Gender: 
+        <input type="radio" name="Gender" required >Male
+        <input type="radio" name="Gender" required>Female</p>
+        <p>Age:
+        <input type="radio" name="Age" required >10-18
+        <input type="radio" name="Age" required>18-24</p>
+        <p>Date Of Birth:
+        <input type="Date" id="Date of birth" required></p>
+        <p>Mobile Number: <input type="text" class="Mobile Number" placeholder="Enter your mobile no." required></p>
+        <p>Email: <input type="text" class="Email" placeholder="Enter Your Email" required></p>
+        </fieldset><br>
+        <fieldset>
+        <legend style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Parent details</legend>
+        <p>Father Name: <input type="text" class="Father Name" placeholder="Enter your Father Name" required></p>
+        <p>Father Phone: <input type="text" class="Father Phone" placeholder="Enter Phone Number" required></p>
+        <p>Father Occupation: <input type="text" class="Occupation" required></p>
+        <p>Qualification: <select class="select" required="">
+        <option selected="" disabled="">Select</option>
+        <option value="">B.A</option>
+        <option value="">M.A</option>
+        <option value="">C.A</option>
+        <option value="">B.Com</option>
+        <option value="">B.Com</option>
+        </select>
+        </fieldset><br>
+        <fieldset>
+        <legend style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Important Information</legend>
+        <p>CNIC: <input type="text" class="CNIC" required></p>
+        <p>B-Form: <input type="text" class="B-Form" required></p>
+        <p>Land line: <input type="text" class="Land line" required></p>
+        <p>Area:
+        <select class="select" required="">
+        <option selected="" disabled="" value="">Select</option>
+        <option value="">Saddar</option>
+        <option value="">Gulsan-e-Iqbal</option>
+        <option value="">Nazimabad</option>
+        <option value="">Clifton</option>
+        <option value="">Baldia Town</option>
+        <option value="">Gulistan-e-Johar</option>
+        <option value="">Bharia Town</option>
+        </select>
+        <p style="text-align: center; text-decoration: underline;"><input  type="submit"></p>
+        </fieldset>
+    </form>
+</body>
+</html>
